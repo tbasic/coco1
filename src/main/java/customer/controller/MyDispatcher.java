@@ -31,11 +31,7 @@ public class MyDispatcher extends HttpServlet{
 			controller.execute(request, response);
 		} catch (Exception e) {
 			// TODO: handle exception
-		}
-		
-		
-		
-		
+		}		
 	}
 
 }
